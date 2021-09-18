@@ -11,7 +11,7 @@ print(df.groupby("level")["attempt"].mean())
 #Level 3    0.698113
 #Level 4    0.734694
 #Name: attempt, dtype: float64
-
+#Class performed the best in level-2 and worst in level-3.
 #fig=go.Figure(go.Bar(
     #x=df.groupby("level")["attempt"].mean(),
     #y=['Level 1','Level 2','Level 3','Level 4'],
