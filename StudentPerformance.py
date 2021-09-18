@@ -12,7 +12,7 @@ print(student_df.groupby("level")["attempt"].mean())
 #Level 3    0.9375
 #Level 4    0.9375
 #Name: attempt, dtype: float64
-
+#The student perfirmed best in level 1 and level 2
 fig=go.Figure(go.Bar(
     y=student_df.groupby("level")["attempt"].mean(),
     x=['Level 1','Level 2','Level 3','Level 4'],
